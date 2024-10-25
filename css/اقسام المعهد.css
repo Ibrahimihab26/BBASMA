@@ -1,0 +1,190 @@
+ @import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Tajawal", sans-serif;
+   background-color: #bcccdc;
+   background: cover;
+   background: linear-gradient(rgba(60, 131, 162, 0.445),rgba(85, 130, 99, 0.473));
+   
+}
+
+/* Navbar styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    font-weight: bold;
+}
+
+
+.conatiner-section{
+    background-color: #1b1bd3;
+}
+h4{
+    font-weight: bold;
+}
+
+nav .logo h4 {
+    font-family: "Lalezar", cursive;
+    font-size: x-large;
+}
+
+nav .nav-items {
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-items .nav-item {
+    padding: 0 1rem;
+}
+
+nav .nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+nav .nav-link:hover {
+    color: #6e0aef;
+    background-color: #ffffff;
+    border-radius: 15px;
+    transition: all 1s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/* Hero styling */
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    right: 0;
+    
+}
+
+.hero-section {
+    max-width: 1366px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+.hero-section .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section .content h4 {
+    color: #a4a4cd;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section .content h1 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section .content p {
+    color: rgb(29, 29, 29);
+    font-size: 1.4rem;
+}
+
+.hero-section .content p span.purple {
+    color: #6e0aef;
+}
+
+.hero-section form {
+    display: flex;
+}
+
+/* Features section */
+
+section.features .features-section {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features-section h4 {
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.qualities{
+    padding-bottom: 240px;
+}
+
+.features-section .qualities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section .qualities .quality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+}
+
+.features-section .qualities .quality:hover {
+    border: 2px solid #6e0aef;
+}
+
+.qualities .quality i {
+    font-size: 2rem;
+    color: #6e0aef;
+    margin-bottom: 1rem;
+}
+
+.qualities .quality h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.qualities .quality p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #4e547e;
+}
+
+/* Footer */
+
+
+.footer-section ,.txt-footer {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+}
